@@ -4,7 +4,8 @@
 This project is a part of Udacity's Asbal Masr Program. It is a multi-section landing page built using HTML, CSS, and JavaScript. The project showcases a navigation bar with smooth scrolling, active section highlighting, and a comments section where users can submit their feedback.
 
 ## Installation
-Clone the repository: git clone https://github.com/username/udacity-project.git
+Clone the repository: git clone https://github.com/FaresAhmed23/Udacity-project2
+
 cd udacity-project
 
 ## Usage
