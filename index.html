@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udacity Project</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="#" class="home-link">
+                Udacity Project
+            </a>
+            <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+                aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link" href="#section1">Section 1</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#section2">Section 2</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#section3">Section 3</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#section4">Section 4</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#section5">Section 5</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#comments">Comments</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section id="section1" data-nav="Section 1">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum, nostrum fugit quibusdam quos
+                maiores cupiditate nisi. Iusto facere labore rerum soluta officia itaque praesentium animi, alias velit
+                excepturi optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus
+                doloremque, temporibus inventore et ducimus itaque qui necessitatibus obcaecati culpa voluptatum sed
+                sapiente laborum ratione porro. Ea architecto aliquam inventore.</p>
+        </section>
+        <hr />
+        <section id="section2" data-nav="Section 2">
+            <h2>Section 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum, nostrum fugit quibusdam quos
+                maiores cupiditate nisi. Iusto facere labore rerum soluta officia itaque praesentium animi, alias velit
+                excepturi optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus
+                doloremque, temporibus inventore et ducimus itaque qui necessitatibus obcaecati culpa voluptatum sed
+                sapiente laborum ratione porro. Ea architecto aliquam inventore.</p>
+        </section>
+        <hr />
+        <section id="section3" data-nav="Section 2">
+            <h2>Section 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum, nostrum fugit quibusdam quos
+                maiores cupiditate nisi. Iusto facere labore rerum soluta officia itaque praesentium animi, alias velit
+                excepturi optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus
+                doloremque, temporibus inventore et ducimus itaque qui necessitatibus obcaecati culpa voluptatum sed
+                sapiente laborum ratione porro. Ea architecto aliquam inventore.</p>
+        </section>
+        <hr />
+        <section id="section4" data-nav="Section 2">
+            <h2>Section 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum, nostrum fugit quibusdam quos
+                maiores cupiditate nisi. Iusto facere labore rerum soluta officia itaque praesentium animi, alias velit
+                excepturi optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus
+                doloremque, temporibus inventore et ducimus itaque qui necessitatibus obcaecati culpa voluptatum sed
+                sapiente laborum ratione porro. Ea architecto aliquam inventore.</p>
+        </section>
+        <hr />
+        <section id="section5" data-nav="Section 2">
+            <h2>Section 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum, nostrum fugit quibusdam quos
+                maiores cupiditate nisi. Iusto facere labore rerum soluta officia itaque praesentium animi, alias velit
+                excepturi optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus
+                doloremque, temporibus inventore et ducimus itaque qui necessitatibus obcaecati culpa voluptatum sed
+                sapiente laborum ratione porro. Ea architecto aliquam inventore.</p>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <section id="comments">
+            <h2>Comments</h2>
+            <form id="commentForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="comment" placeholder="Comment" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="commentList">
+            </div>
+        </section>
+    </footer>
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
