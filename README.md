@@ -10,9 +10,13 @@ cd udacity-project
 
 ## Usage
 -Navigate through the different sections using the navigation bar.
+
 -Scroll through the sections to see the active section highlighting.
+
 -Submit your comments at the bottom of the page.
+
 -The project is responsive and works well on different screen sizes.
+
 
 ## License
 This project is licensed under the ISC License.
