@@ -23,8 +23,11 @@ This project is licensed under the ISC License.
 
 ## Skills
 -HTML
+
 -CSS
+
 -JavaScript
+
 
 ## Usage of Markdown
 This README uses Markdown syntax to create clear and structured documentation. Here are some examples:
