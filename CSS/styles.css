@@ -9,6 +9,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	height: 100vh;
 	font-family: Arial, Helvetica, sans-serif;
@@ -152,7 +155,7 @@ hr {
 	z-index: -22;
 	width: 100%;
 }
-section {
+.sect {
 	margin: 20px 0;
 	padding: 20px;
 	border: 1px solid #ccc;
@@ -162,8 +165,8 @@ section {
 	height: auto;
 }
 
-section.active {
-	background-color: #e0e0e0;
+.active {
+	background-color: #c5c4c4;
 }
 
 /* Comment Section Form */
